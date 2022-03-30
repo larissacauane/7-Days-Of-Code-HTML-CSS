@@ -70,3 +70,34 @@ body{
     
 }
 
+/*=======================================*/
+/*HEADER SECTION*/
+/*=======================================*/
+.header{
+    max-width: 85rem;
+    /* border: #8E2424 solid 1px; */
+    display: grid;
+    justify-items: center;
+    gap: 2rem;
+    padding: 7rem 9.8rem;
+    margin: 0 auto;
+}
+
+.about-us{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+.heading-primary{
+    font-size: 4.5rem;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.header-description{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--text-color);
+}
