@@ -74,13 +74,13 @@ body{
 /*HEADER SECTION*/
 /*=======================================*/
 .header{
-    max-width: 85rem;
+    padding-top: 8rem;
     /* border: #8E2424 solid 1px; */
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
-    padding: 7rem 9.8rem;
-    margin: 0 auto;
 }
 
 .about-us{
@@ -96,6 +96,7 @@ body{
 }
 
 .header-description{
+    max-width: 65rem;
     font-size: 1.6rem;
     font-weight: 400;
     text-align: center;
